@@ -15,7 +15,13 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   //
+  $(".time-block").each(function(){
+    let block = $(this);
+    let id = block.attr("id");
+    let value = localStorage.getItem(id);
 
+    block.children('textarea').eq(0).val(value);
+  })
   //Set hour equal to id hour from html
   $(".time-block").each(function () {
     let timeBlock = $(this);
