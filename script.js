@@ -1,5 +1,6 @@
-
+//Function to ensure that jquery loads after initial boot.
 $(function () {
+  //Function to retrieve values from local storage.
   $(".time-block").each(function(){
     let block = $(this);
     let id = block.attr("id");
