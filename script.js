@@ -22,7 +22,6 @@ $(function () {
     let hour = timeBlock.attr('id').split('-').pop();
     
     let currentHour = dayjs().hour();
-    console.log(currentHour)
 
     if(hour > currentHour) {
       timeBlock.addClass("future");
@@ -34,9 +33,10 @@ $(function () {
     }
   });
 
+  //Pop up to show saved confirmation
   $('.saveBtn').on('click', function(){
     console.log("Clicked")
-    $('.popup').text('Your item has been logged.');
+    $('.popup').text('Schedule Updated ✔');
     setTimeout(function(){
       $('.popup').text('');
     },3000);
