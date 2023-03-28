@@ -33,4 +33,12 @@ $(function () {
       timeBlock.addClass('present')
     }
   });
+
+  $('.saveBtn').on('click', function(){
+    console.log("Clicked")
+    $('.popup').text('Your item has been logged.');
+    setTimeout(function(){
+      $('.popup').text('');
+    },3000);
+  })
 });
