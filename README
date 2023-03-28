@@ -1,0 +1,12 @@
+# Scheduler
+
+## Description:
+This webpage contains a daily planner. It will keep track of all events, which have been saved to the time blocks. There is also a color coding system that will identify what the current time frame is. When an event has been scheduled to the planner, a pop up will appear signaling that it has been saved.
+
+## Usage:
+After landing on the page, the user will be greeted with all existing events. If the user decides to input a new event, they must click on the corresponding save button in order to keep it there permenantly. The color coding signifies past, present and future. Grey is in the past, red is the current time frame, and green is in the future. When a new event is saved to the planner, a pop up will appear confirming that it has been saved for futre reference.
+
+## Link to Deployed URL: https://jonathanjjolsen.github.io/scheduler/
+
+## Screenshot:
+![Password Generator](assets\Schedule.jpg)
